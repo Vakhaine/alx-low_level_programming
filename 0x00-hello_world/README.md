@@ -11,3 +11,9 @@ After creating the executable script gcc -c $CFILE and using the ./1-Compiler co
 After creating the executable script gcc -S $CFILE and using the ./2-assembler command, main.s was created automatically.
 
 * 3. 3-name--script that compiles a C file and creates an executable named cisfun. The C file name will be saved in the variable $CFILE. After outputing to cisfun an executable file cisfun was created automatically. 
+
+* 4. Hello, puts (4-puts.c)--Programming is like building a multilingual puzzle.
+
+* 5. Hello, printf (5-printf.c)--with proper grammar, but the outcome is a piece of art,, followed by a new line.
+
+
