@@ -14,8 +14,8 @@ int main(void)
 	putchar(c);
 
 	for (c = 'A'; c <= 'Z'; c++)
-	purchar(c);
+	putchar(c);
 
-	purchar('\n');
+	putchar('\n');
 	return (0);
 }
