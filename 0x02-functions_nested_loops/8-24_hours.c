@@ -2,34 +2,24 @@
 
 /**
  * jack_bauer - a function that prints every minute of the day of Jack Bauer,
- *  starting from 00:00 to 23:59.
- *  Return: void
+ *  starting from 00:00 to 23:59 (take note of hour and minute).
+ *  Return: 24:00 clock (Success)
  */
 
 void jack_bauer(void)
-
 {
-	int w, x, y, z;
+	int hour, min;
 
-	for (w = 0; w <= 2; w++)
+	for (hour = 0; hour < 24; hour++) /* starting from 00:00 to 23:59 hour */
 	{
-	for (x = 0; x <= 9; x++)
-	{
-	if ((w <= 1 && x <= 9) || (x <= 2 && y <= 3))
-	{
-	for (y = 0; y <= 5; y++)
-	{
-	for (z = 0; z <= 9; z++)
-	{
-		_putchar(w + '0');
-		_putchar(x + '0');
-		_putchar(':');
-		_putchar(y + '0');
-		_putchar(z + '0');
-		_putchar('\n');
-	}
-	}
-	}
-	}
+		for (min = 0; min < 60; min++) /* every hour in min*/
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
+			_putchar('\n');
+		}
 	}
 }
