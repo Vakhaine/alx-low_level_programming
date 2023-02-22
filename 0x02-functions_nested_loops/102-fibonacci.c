@@ -25,7 +25,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 50 && count != 51)
+		if (count == 50)
 		printf("\n");
 
 		else
