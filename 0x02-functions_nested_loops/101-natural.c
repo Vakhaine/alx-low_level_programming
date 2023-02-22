@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - If we list all the natural numbers below 10
@@ -12,14 +11,14 @@ int main(void)
 {
 	int n, add = 0;
 
-	for (n = 0; i < 1024; i++)
+	for (n = 0; n < 1024; n++)
 	{
-		if ((i % 3) == 0 || (i % 5) == 0)
+		if ((n % 3) == 0 || (n % 5) == 0)
 			add += n;
 	}
 
 	printf("%d", add);
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
