@@ -16,7 +16,7 @@ int main(void)
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	for (count = 0; count < 50; count++)
+	for (count = 0; count < 51; count++)
 	{
 		printf("%lu", fib2);
 
@@ -25,7 +25,8 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count < 49 && count != 50) /* add comma and space after except the last one*/
+		if (count < 50 && count != 51)
+		/* add comma and space after except the last one*/
 		printf(", ");
 
 		else
