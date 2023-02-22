@@ -25,7 +25,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count <= 49 && count != 51)
+		if (count <= 49 && count != 50)
 		/* add comma and space after except the last one*/
 		printf(", ");
 
