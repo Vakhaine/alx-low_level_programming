@@ -26,10 +26,10 @@ int main(void)
 		fib2 = sum;
 
 		if (count <= 49) /* add comma and space after except the last one*/
-		printf("\n");
+		printf(", ");
 
 		else
-			printf(", ");
+			printf("\n");
 	}
 	return (0);
 }
