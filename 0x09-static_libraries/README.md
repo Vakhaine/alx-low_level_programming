@@ -56,7 +56,7 @@ create this file create_static_lib.sh
 copy the script command below into the file, save and quit:
 
 -- #!/bin/bash
--- gcc -Wall -pedentic -Werror -Wextra -c *.c
+-- gcc -Wall -pedantic -Werror -Wextra -c *.c
 -- ar -rc liball.a *.o
 -- ranlib liball.a
 
