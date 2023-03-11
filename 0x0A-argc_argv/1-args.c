@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * main -  print name entry point
+ * main -  prints the number of arguments passed.
  *@argc: int.
  *@argv: char.
  * Return: Always 0.
  */
+
 int main(int argc, __attribute__((unused)) char *argv[])
 {
 	printf("%d\n", argc - 1);
