@@ -1,6 +1,5 @@
 C - Static libraries
 
-
 TASKS 
 
 INSTRUCTION
