@@ -46,7 +46,7 @@ to display a list of content in the static library run nm libmy.a
 
 push to remote repo.
 
-----------------------------------------Follow @: [Vakhaine](github.com/vakhaine)---------------------------------------------------
+----------------------------------------Follow @: [Vakhaine](https://github.com/Vakhaine)---------------------------------------------------
 
 Task 1
 
@@ -67,4 +67,4 @@ ls to confirm liball.a is present
 
 push to remote repo.
 
-----------------------------------------Follow @: [Vakhaine](github.com/vakhaine)---------------------------------------------------
+----------------------------------------Follow @: [Vakhaine](https://github.com/Vakhaine)---------------------------------------------------
