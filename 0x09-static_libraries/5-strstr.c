@@ -1,32 +1,29 @@
 #include "main.h"
-
 /**
  * _strstr - Entry point
  * @haystack: input
  * @needle: input
  * Return: Always 0 (Success)
  */
-
 char *_strstr(char *haystack, char *needle)
+/* Character variables have been declared already */
+
 {
+/* Statement to get desired result */
+
 	for (; *haystack != '\0'; haystack++)
 	{
-		char *l = haystack;
-		char *p = needle;
+/* We can define or declare a variable for v and s */
+		char *v = haystack;
+		char *s = needle;
 
-
-		while (*l == *p && *p != '\0')
+		while (*v == *s && *s != '\0')
 		{
-			l++;
-			p++;
+			v++;
+			s++;
 		}
-
-
-		if (*p == '\0')
+		if (*s == '\0')
 			return (haystack);
 	}
-
-
 	return (0);
 }
-

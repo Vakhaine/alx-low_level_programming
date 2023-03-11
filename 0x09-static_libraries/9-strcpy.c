@@ -6,21 +6,21 @@
  * @src: copy from
  * Return: string
  */
-
 char *_strcpy(char *dest, char *src)
 {
-	int l = 0;
-	int x = 0;
+	int y = 0;
+	int z = 0;
 
-
-	while (*(src + l) != '\0')
+	while (*(src + y) != '\0')
 	{
-		l++;
+		y++;
 	}
-	for ( ; x < l ; x++)
+	for ( ; z < y ; z++)
 	{
-		dest[x] = src[x];
+		dest[z] = src[z];
 	}
-	dest[l] = '\0';
+	dest[y] = '\0';
 	return (dest);
 }
+
+
